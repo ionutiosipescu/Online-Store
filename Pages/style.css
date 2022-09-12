@@ -1,0 +1,22 @@
+/* checkout page */
+:root {
+    --title-background: #20b2aa;
+  }
+  
+  #title {
+    background-color: var(--title-background);
+  }
+  
+  #body .row {
+    color: gray;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .plus-btn,
+  .minus-btn {
+    padding: 0.2em 0.5em;
+    margin-left: 0.2em;
+    background-color: rgb(231, 228, 228);
+    border: none;
+  }

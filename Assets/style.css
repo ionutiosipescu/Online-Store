@@ -1,0 +1,107 @@
+.main-cart {
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    margin-right: 100px;
+}
+
+.cart-btn {
+    z-index: 1;
+    background: none;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.cart-btn:hover {
+    color: rgb(247, 114, 48);
+}
+
+.cart-span {
+    top: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 0.3em;
+}
+
+.shop-text {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.shop-text h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(193, 210, 216, 0.612);
+}
+
+.btn-checkout {
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    min-width: 100px;
+    min-height: 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+} 
+
+a .btn-checkout:hover {
+    background-color: #323232;
+} 
+
+form {
+    margin-top: 60px;
+    background-color: #323232;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form h3 {
+    text-transform: uppercase;
+    padding: 30px;
+    color: #fff;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+form :placeholder-shown {
+    opacity: 70%;
+}
+
+form button {
+    color: #fff;
+    min-width: 80px;
+    min-height: 40px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+form button:hover {
+    background-color: #323232;
+}
+
+.container-fluid {
+    background: rgb(85,185,215);
+    background: linear-gradient(90deg, rgba(193, 210, 216, 0.612) 5%, rgba(175, 193, 199, 0.612) 70%, rgba(160, 186, 192, 0.669) 94%);
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+
